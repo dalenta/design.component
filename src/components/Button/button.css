@@ -1,0 +1,36 @@
+/* DEFAULT BUTTON STYLE */
+@layer components {
+  .primary {
+    @apply p-2 text-sm font-medium rounded-lg;
+  }
+  .secondary {
+    @apply p-2 text-sm font-medium rounded-lg;
+  }
+  .outlined {
+    @apply border p-2 text-sm font-medium rounded-lg;
+  }
+}
+/* BLUE THEME */
+@layer components {
+  /* STATE : DEFAULT */
+  .blue-hedgehog {
+    @apply bg-blue-hedgehog text-neutral-light;
+  }
+  .blue-hedgehog-outlined {
+    @apply text-blue-hedgehog border-blue-hedgehog bg-neutral-light;
+  }
+  .blue-hedgehog-secondary {
+    @apply text-blue-hedgehog bg-blue-magnolia;
+  }
+
+  /* STATE : LOADING */
+  .blue-hedgehog-loading {
+    @apply bg-blue-cornflower text-neutral-light;
+  }
+  .blue-hedgehog-outlined-loading {
+    @apply text-blue-cornflower border-blue-cornflower bg-neutral-light;
+  }
+  .blue-hedgehog-secondary-loading {
+    @apply text-blue-cornflower bg-blue-magnolia;
+  }
+}
